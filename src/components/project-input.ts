@@ -23,7 +23,7 @@ export class ProjectInput extends Component<HTMLDivElement, HTMLFormElement> {
   configure() {
     // the first arg of bind method declares what the 'this' keyword will refer to 
     // inside the to be executed function, method submitHandler in our case
-    this.element.addEventListener('submit', this.submitHandler.bind)
+    this.element.addEventListener('submit', this.submitHandler)
   }
 
   renderContent() { };

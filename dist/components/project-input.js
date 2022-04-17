@@ -17,7 +17,7 @@ export class ProjectInput extends Component {
         this.configure();
     }
     configure() {
-        this.element.addEventListener('submit', this.submitHandler.bind);
+        this.element.addEventListener('submit', this.submitHandler);
     }
     renderContent() { }
     ;
