@@ -24,6 +24,7 @@
     "webpack-dev-server": "^4.8.1"
   },
   "dependencies": {
+    "async": "^3.2.3",
     "lodash": "^4.17.21"
   }
 }
