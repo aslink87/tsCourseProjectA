@@ -1,7 +1,7 @@
-import { Component } from './base-component.js';
-import { Validatable, validate } from '../util/validation.js';
-import { projectState } from '../state/project-state.js';
-import { autobind } from '../decorators/autobind.js';
+import { Component } from './base-component';
+import { Validatable, validate } from '../util/validation';
+import { projectState } from '../state/project-state';
+import { autobind } from '../decorators/autobind';
 
 // ProjectInput class
 // create class to access dom elements in an OOP way
